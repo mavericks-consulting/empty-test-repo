@@ -1,0 +1,24 @@
+Hi Cynthia,
+
+Last night we deployed P2P(Paylah server) changes to the UAT-2 environment. Mentioned below are some of the issues we faced:
+
+1.	No Knowledge Transfer for P2P server(paylah-consumer)
+a.	Since the changes we were making had to incorporate changes to the P2P server, It would have helped us a lot if we were given a detailed knowledge transfer. (Pending)
+b.	Even though Venkatakrishnarao Manukonda initially helped us make code changes, it was not possible to test those changes until they were deployed to an environment
+c.	The development on Android and iOS was done with mocks. Until it was tested on an integrated environment, it was a risk.
+2.	No Knowledge transfer for Environment details(DEV, SIT, UAT)
+a.	We did not have the access or the knowledge to deploy P2P changes to an environment. .(Pending)
+b.	The P2P deployment happened last night, which did not give us enough time to test and debug for issues.
+c.	We still do not understand the structure and hierarchy of the environments.(Pending)
+3.	Release process for PayLah!
+a.	We do not have an understanding on the process in which a build(Android/iOS) progresses from one environment to the other.(Pending)
+b.	We do not have an understanding on how to release the Android and iOS applications. Currently we have to rely on the offshore team for this.(Pending)
+4.	Changing reviewers on the Pull requests:
+a.	The reviewers for Pull requests were changed frequently since previously assigned people were on leave. Because of which had to keep merging the changes from the Release branches to the feature branch which we were working on.
+b.	The Pull Request for iOS is still pending a review. I could not get hold of the person who has added comments to the PR. .(Pending)
+
+In order to avoid last minute hiccups on deployments, It would be great if some of the pending things(marked as Pending) be resolved as soon as possible so that we can ensure a smoother delivery.
+
+Thanks,
+
+Aashish Pundalik.
